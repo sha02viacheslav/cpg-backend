@@ -1,0 +1,508 @@
+/*@import url('https://fonts.googleapis.com/css?family=Karla:400,700|Montserrat:300,400|Raleway:400,500');*/
+.h1, .h2, .h3, .h4, body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Karla', sans-serif;
+}
+
+.h3, h3 {
+    font-size: 2rem;
+    margin: 20px 0 10px;
+}
+body, .card{
+    font-size: 1.2rem;
+}
+.navbar{
+    min-height: 80px;
+    border-radius: 0px;
+    background: transparent !important;
+    box-shadow:none;
+}
+.main-panel{
+    width: calc(100% - 320px);
+}
+
+.sidebar{
+    background-color: rgba(0,0,0,0.3);
+    width: 320px !important;
+}
+.navbar:after{
+    position: absolute;
+    height: 1px;
+    width: calc(100% - 30px);
+    content: '';
+
+    background-color: rgba(180,180,180,.3);
+    right: 15px;
+    bottom: 0px;
+}
+.sidebar, .sidebar:before, .sidebar:after{
+    background-color: rgba(0,0,0,0.3) !important;
+    box-shadow: none;
+
+}
+#video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url('/video/placeholder.jpg') no-repeat;
+    background-size: cover;
+}
+.sidebar .sidebar-wrapper{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: calc(100vh );
+    width: 320px;
+}
+
+.sloganSmall{
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-transform: initial;
+    font-weight: 300;
+    line-height: 14px;
+}
+.logo {
+    padding: 0px !important;
+    margin: 0;
+    display: block;
+    position: relative;
+    z-index: 4;
+    text-align: center;
+    height: 80px;
+}
+.logoSmall {
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'Raleway';
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    margin-bottom: -15px;
+}
+.sidebar .logo .simple-text{
+    width: 100%;
+}
+.logoSmall span, .gold {
+    color: #F6BB42;
+}
+.filterMainHeader h3{
+    color: #ffffff;
+}
+.filterMainHeader i{
+    padding-right: 10px;
+}
+.customInput, .select2-container--bootstrap .select2-selection--single{
+    border: 2px solid #ffffff;
+    /*width: 90%;*/
+    min-height: 38px;
+    letter-spacing: 1px;
+    background-color: rgba(255,255,255,0.1);
+    padding-left: 15px;
+    padding-right: 15px;
+    background-image: none;
+    color: #A4A4A4;
+    border-radius: 4px;
+    box-shadow: 0 2px 9px 0 rgba(0,0,0,0.02) !important;
+    -webkit-box-shadow: 0 2px 9px 0 rgba(0,0,0,0.02) !important;
+}
+.select2-container--bootstrap .select2-selection--single{
+    height: 38px;
+}
+.select2-container--bootstrap .select2-selection--single .select2-selection__rendered{
+    /*color: #A4A4A4;*/
+    color: #ffffff;
+    padding-top: 1px;
+}
+.form-check-label{
+    color: #ffffff;
+}
+.bmd-form-group .checkbox label, .bmd-form-group .radio label, .bmd-form-group label{
+    font-size: 14px;
+}
+.customInput:read-only{
+    background-image: none;
+}
+
+.select2-container--bootstrap.select2-container--focus .select2-selection, .select2-container--bootstrap.select2-container--open .select2-selection{
+    border-color: #ffffff;
+}
+select.customInput{
+    background-color: rgba(255,255,255,0.1);
+}
+#search{
+    padding-right: 50px;
+}
+.customInput:hover, .customInput:active, .customInput:focus{
+    background-image: none;
+    color: #ffffff;
+}
+.filterLabel{
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.filterHeader{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.sidePd1{
+    /*margin: 0px 20px;*/
+    padding: 0px 30px;
+}
+.photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: inline-block;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+.info{
+    display: inline-block;
+    padding: 0px;
+
+}
+.info a {
+    color: #ffffff !important;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+}
+.dropdown-menu.show, .open>.dropdown-menu {
+    background: transparent;
+    top: 60px;
+    right: 50px;
+}
+.sidebar-normal{
+    font-size: 14px;
+    width: 100px;
+}
+.dropdown-menu .dropdown-item:focus, .dropdown-menu .dropdown-item:hover, .dropdown-menu a:active, .dropdown-menu a:focus, .dropdown-menu a:hover {
+    box-shadow: none;
+    background-color: transparent;
+    color: #FFF;
+}
+.dropdown-toggle{
+    cursor: pointer;
+}
+.navbar-nav .dropdown-menu{
+    position: absolute;
+
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+    background: transparent;
+    border:none
+}
+
+.form-check .form-check-input:checked+.form-check-sign .check{
+    /*background: #4caf50;*/
+}
+.form-check .form-check-sign .check{
+    /*border: 1px solid #4caf50;*/
+    /*border:none;*/
+}
+.sidebar-wrapper label{
+    font-size: 16px;
+}
+.center{
+    text-align: center;
+}
+.white{
+    color: white;
+}
+
+/* Customize the label (the container) */
+.customCheckBox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* CUSTOM INPUT */
+.customCheckBox input {
+    position: absolute;
+    opacity: 0;
+    left: 0px;
+    top: -4px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 88888;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    border: 2px solid #C5DFF5;
+    border-radius: 6px;
+}
+
+/* On mouse-over, add a grey background color */
+.customCheckBox:hover input ~ .checkmark {
+    /*background-color: #ccc;*/
+}
+
+/* When the checkbox is checked, add a blue background */
+.customCheckBox input:checked ~ .checkmark {
+    background-color: transparent;
+    border: 2px solid #C5DFF5;
+    border-radius: 6px;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.customCheckBox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.customCheckBox .checkmark:after {
+    left: 7px;
+    top: 2px;
+    width: 7px;
+    height: 13px;
+    border: solid #4caf50;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.btn.btn-blue {
+    color: #fff;
+    background-color: #1669D2;
+    border-color: #1669D2;
+    background: linear-gradient(133.26deg, #438AD0 0%, #1669D2 48.44%, #326CCC 100%);
+    box-shadow: 0 14px 26px -12px rgba(67, 138, 208, .42), 0 4px 23px 0 rgba(22, 105, 210, .12), 0 8px 10px -5px rgba(50, 108, 204, .2);
+}
+
+.btn.btn-blue.focus,
+.btn.btn-blue:focus,
+.btn.btn-blue:hover {
+    color: #fff;
+    background-color: #0e3a72;
+    border-color: #133259
+}
+
+.btn.btn-blue.active,
+.btn.btn-blue:active,
+.open>.btn.btn-blue.dropdown-toggle,
+.show>.btn.btn-blue.dropdown-toggle {
+    color: #fff;
+    background-color: #0e3a72;
+    border-color: #133259;
+    /*box-shadow: 0 14px 26px -12px rgba(14, 58, 114, .42), 0 4px 23px 0 rgba(14, 58, 114, .12), 0 8px 10px -5px rgba(19, 50, 89, .2);*/
+}
+
+.btn.btn-blue.active.focus,
+.btn.btn-blue.active:focus,
+.btn.btn-blue.active:hover,
+.btn.btn-blue:active.focus,
+.btn.btn-blue:active:focus,
+.btn.btn-blue:active:hover,
+.open>.btn.btn-blue.dropdown-toggle.focus,
+.open>.btn.btn-blue.dropdown-toggle:focus,
+.open>.btn.btn-blue.dropdown-toggle:hover,
+.show>.btn.btn-blue.dropdown-toggle.focus,
+.show>.btn.btn-blue.dropdown-toggle:focus,
+.show>.btn.btn-blue.dropdown-toggle:hover {
+    color: #fff;
+    background: linear-gradient(133.26deg,rgba(67, 138, 208, .42) 0%, rgba(22, 105, 210, .12) 48.44%, rgba(50, 108, 204, .2) 100%);
+    border-color: #133259
+}
+
+.open>.btn.btn-blue.dropdown-toggle.bmd-btn-icon {
+    color: inherit;
+    background-color: #1669D2
+}
+
+.open>.btn.btn-blue.dropdown-toggle.bmd-btn-icon:hover {
+    background-color: #0e3a72
+}
+
+.btn.btn-blue.disabled.focus,
+.btn.btn-blue.disabled:focus,
+.btn.btn-blue.disabled:hover,
+.btn.btn-blue:disabled.focus,
+.btn.btn-blue:disabled:focus,
+.btn.btn-blue:disabled:hover {
+    background-color: #1669D2;
+    border-color: #1669D2
+}
+
+.btn.btn-blue.btn-link,
+.btn.btn-blue.btn-link:active,
+.btn.btn-blue.btn-link:focus,
+.btn.btn-blue.btn-link:hover {
+    background-color: transparent;
+    color: #1669D2
+}
+
+.btn.btn-blue:active,
+.btn.btn-blue:focus,
+.btn.btn-blue:hover {
+    box-shadow: 0 14px 26px -12px rgba(14, 58, 114, .42), 0 4px 23px 0 rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(19, 50, 89, .2);
+}
+.submitFilters{
+    margin-top: -5px;
+    height: 40px;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 2px 0px;
+    width: 100%;
+}
+.card{
+    background: transparent;
+    margin-top: 0px;
+    box-shadow: none;
+}
+.main-panel>.content{
+    margin-top: 0px;
+}
+.page-header{
+     min-height: auto;
+     max-height: auto;
+}
+.card .card-body{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.listaJugadores{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.listaJugadores .jugador {
+    margin: 0 6px 14px 6px;
+    max-width: 229px;
+    color: #ffffff;
+    padding-top: 15px;
+    cursor: pointer;
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+.listaJugadores .jugador:hover {
+    background: rgba(0, 0, 0, 0.44);
+    overflow: hidden;
+    box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.6);
+}
+.openBox{
+    color: #ffffff;
+}
+
+.listaJugadores .jugador:hover .perfilDetalle{
+     background: none;
+    box-shadow:none;
+
+}
+.ubicacion{
+
+}
+.lightBlue{
+    color: #B0E4EC;
+}
+.perfilImagen img{
+    width:150px;
+    height:150px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+.clear{
+    clear:both;
+}
+.perfilDetalle{
+    border-radius: 4px;
+    padding: 5px 0px;
+    background: rgba(0,0,0,0.44);
+    overflow: hidden;
+    box-shadow: 0 2px 13px 0 rgba(0,0,0,0.6);
+}
+.perfilImagen{
+    text-align:center;
+    position: relative;
+}
+.npPdRight{
+    padding-right: 0px;
+}
+.smallPdLeft{
+    padding-left: 5px;
+}
+.mediaIcons{
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+}
+.perfilDetalle .subHeader,.perfilDetalle .detalle{
+    display: block;
+}
+.subHeader{
+    font-weight: bold;
+}
+.nombreBox{
+    margin-bottom: -5px;
+    margin-top: 5px;
+}
+.nombreBox h2{
+    line-height: 2.4rem;
+}
+.arquero{
+    color: #aab2bd;
+}
+.arquero::before{
+    background: url('/img/arquero.png');
+}
+.defensor{
+    color: #f6bb42;
+}
+.mediocampista{
+    color: #35d48e;
+}
+.delantero{
+    color: #da4453;
+}
+/*.customInput, .is-focused .customInput{*/
+    /*background-image: linear-gradient(to top,#F6BB42 2px,rgba(156,39,176,0) 2px),*/
+                      /*linear-gradient(to top,#d2d2d2 1px,rgba(210,210,210,0) 1px),*/
+                    /*linear-gradient(to bottom,#F6BB42 2px,rgba(156,39,176,0) 2px),*/
+                    /*linear-gradient(to bottom,#d2d2d2 1px,rgba(210,210,210,0) 1px),*/
+                    /*linear-gradient(to left,#d2d2d2 1px,rgba(210,210,210,0) 1px),*/
+                    /*linear-gradient(to left,#d2d2d2 1px,rgba(210,210,210,0) 1px),*/
+                    /*linear-gradient(to right,#d2d2d2 1px,rgba(210,210,210,0) 1px),*/
+                    /*linear-gradient(to right,#d2d2d2 1px,rgba(210,210,210,0) 1px);*/
+/*}*/

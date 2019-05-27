@@ -1,0 +1,5 @@
+@media (max-width: 991px){
+    .off-canvas-sidebar nav .navbar-collapse, .sidebar {
+        width: 260px !important;
+    }
+}
